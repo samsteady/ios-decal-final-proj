@@ -23,7 +23,9 @@ We are aiming to create an app that streamlines cooperative living in college, s
 
 ## Implementation
 ### Model
-* N/A
+* User.swift
+* Chore.swift
+* Household.swift
 
 ### View
 * StartupScreenView
