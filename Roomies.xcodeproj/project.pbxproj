@@ -18,8 +18,6 @@
 		2226BF881DF88DC7002F2AD0 /* notchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 2226BF861DF88DC7002F2AD0 /* notchecked.png */; };
 		2226BF8A1DF89862002F2AD0 /* NewChoreUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2226BF891DF89862002F2AD0 /* NewChoreUserViewController.swift */; };
 		2226BF8C1DF8A357002F2AD0 /* AllChoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2226BF8B1DF8A357002F2AD0 /* AllChoresViewController.swift */; };
-		2226BF8E1DF8B83C002F2AD0 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2226BF8D1DF8B83C002F2AD0 /* DescriptionViewController.swift */; };
-		22679EE71DF6C56A00E3F784 /* AllSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22679EE61DF6C56A00E3F784 /* AllSetViewController.swift */; };
 		22679EF21DF6CA9800E3F784 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22679EF01DF6CA9800E3F784 /* MainViewController.swift */; };
 		22679EF31DF6CA9800E3F784 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22679EF11DF6CA9800E3F784 /* MainViewController.xib */; };
 		22679EF51DF6D4EE00E3F784 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22679EF41DF6D4EE00E3F784 /* User.swift */; };
@@ -28,7 +26,9 @@
 		22679EFC1DF73E6900E3F784 /* NewChoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22679EFB1DF73E6900E3F784 /* NewChoreViewController.swift */; };
 		229C4B5A1DF7807C00A18D4A /* Chore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229C4B591DF7807C00A18D4A /* Chore.swift */; };
 		229C4B5C1DF7888F00A18D4A /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229C4B5B1DF7888F00A18D4A /* CalendarViewController.swift */; };
-		22C6CC681DF7A7D500DC43A7 /* PersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C6CC671DF7A7D500DC43A7 /* PersonTableViewController.swift */; };
+		22D10B351DF8EA420007FA15 /* AllSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D10B341DF8EA420007FA15 /* AllSetViewController.swift */; };
+		22D10B381DF8EA650007FA15 /* PersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D10B361DF8EA650007FA15 /* PersonTableViewController.swift */; };
+		22D10B391DF8EA650007FA15 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D10B371DF8EA650007FA15 /* DescriptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,8 +44,6 @@
 		2226BF861DF88DC7002F2AD0 /* notchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notchecked.png; sourceTree = "<group>"; };
 		2226BF891DF89862002F2AD0 /* NewChoreUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChoreUserViewController.swift; sourceTree = "<group>"; };
 		2226BF8B1DF8A357002F2AD0 /* AllChoresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllChoresViewController.swift; sourceTree = "<group>"; };
-		2226BF8D1DF8B83C002F2AD0 /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DescriptionViewController.swift; path = ../DescriptionViewController.swift; sourceTree = "<group>"; };
-		22679EE61DF6C56A00E3F784 /* AllSetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllSetViewController.swift; path = ../AllSetViewController.swift; sourceTree = "<group>"; };
 		22679EF01DF6CA9800E3F784 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		22679EF11DF6CA9800E3F784 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		22679EF41DF6D4EE00E3F784 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -55,7 +53,9 @@
 		228639B01DB69FE100EB9598 /* Roomies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roomies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		229C4B591DF7807C00A18D4A /* Chore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chore.swift; sourceTree = "<group>"; };
 		229C4B5B1DF7888F00A18D4A /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
-		22C6CC671DF7A7D500DC43A7 /* PersonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonTableViewController.swift; path = ../PersonTableViewController.swift; sourceTree = "<group>"; };
+		22D10B341DF8EA420007FA15 /* AllSetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllSetViewController.swift; sourceTree = "<group>"; };
+		22D10B361DF8EA650007FA15 /* PersonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewController.swift; sourceTree = "<group>"; };
+		22D10B371DF8EA650007FA15 /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,17 +72,17 @@
 		2213A8ED1DF6916F006E4FAD /* Roomies */ = {
 			isa = PBXGroup;
 			children = (
-				2226BF8D1DF8B83C002F2AD0 /* DescriptionViewController.swift */,
 				2226BF851DF88DC7002F2AD0 /* check.png */,
 				2226BF861DF88DC7002F2AD0 /* notchecked.png */,
-				22C6CC671DF7A7D500DC43A7 /* PersonTableViewController.swift */,
+				22D10B361DF8EA650007FA15 /* PersonTableViewController.swift */,
+				22D10B371DF8EA650007FA15 /* DescriptionViewController.swift */,
+				22D10B341DF8EA420007FA15 /* AllSetViewController.swift */,
 				22679EFB1DF73E6900E3F784 /* NewChoreViewController.swift */,
 				2226BF891DF89862002F2AD0 /* NewChoreUserViewController.swift */,
 				229C4B5B1DF7888F00A18D4A /* CalendarViewController.swift */,
 				229C4B591DF7807C00A18D4A /* Chore.swift */,
 				22679EF01DF6CA9800E3F784 /* MainViewController.swift */,
 				22679EF11DF6CA9800E3F784 /* MainViewController.xib */,
-				22679EE61DF6C56A00E3F784 /* AllSetViewController.swift */,
 				2213A8EE1DF6916F006E4FAD /* AddItemViewController.swift */,
 				2213A8EF1DF6916F006E4FAD /* AppDelegate.swift */,
 				2213A8F01DF6916F006E4FAD /* Assets.xcassets */,
@@ -199,21 +199,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D10B381DF8EA650007FA15 /* PersonTableViewController.swift in Sources */,
 				22679EF21DF6CA9800E3F784 /* MainViewController.swift in Sources */,
 				2226BF8C1DF8A357002F2AD0 /* AllChoresViewController.swift in Sources */,
 				22679EFA1DF73DE000E3F784 /* SSRadioButtonsController.swift in Sources */,
 				229C4B5A1DF7807C00A18D4A /* Chore.swift in Sources */,
-				22C6CC681DF7A7D500DC43A7 /* PersonTableViewController.swift in Sources */,
 				2213A8FD1DF6916F006E4FAD /* AppDelegate.swift in Sources */,
 				2213A9041DF6916F006E4FAD /* CreateHouseholdViewController.swift in Sources */,
 				22679EF51DF6D4EE00E3F784 /* User.swift in Sources */,
+				22D10B351DF8EA420007FA15 /* AllSetViewController.swift in Sources */,
 				22679EF91DF73DE000E3F784 /* SSRadioButton.swift in Sources */,
 				229C4B5C1DF7888F00A18D4A /* CalendarViewController.swift in Sources */,
 				2213A9071DF6916F006E4FAD /* TableViewCell.swift in Sources */,
 				2226BF8A1DF89862002F2AD0 /* NewChoreUserViewController.swift in Sources */,
 				2213A8FC1DF6916F006E4FAD /* AddItemViewController.swift in Sources */,
-				2226BF8E1DF8B83C002F2AD0 /* DescriptionViewController.swift in Sources */,
-				22679EE71DF6C56A00E3F784 /* AllSetViewController.swift in Sources */,
+				22D10B391DF8EA650007FA15 /* DescriptionViewController.swift in Sources */,
 				22679EFC1DF73E6900E3F784 /* NewChoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
